@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Macro Photography Gallery</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    header img {
+      height: 50px;
+    }
+    h1 {
+      font-size: 2em;
+    }
+    .description {
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #111;
+      padding: 10px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .card img:hover {
+      transform: scale(1.05);
+    }
+    .caption {
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="public/images/logo.svg" alt="Logo test" />
+    <h1>Macro Photography Gallery</h1>
+  </header>
+
+  <p class="description">Explore the fascinating details of insects, flowers, and abstract subjects through the lens of macro photography.</p>
+
+  <div class="gallery">
+    <div class="card">
+      <img src="public/images/_DSC9983.jpg" alt="Shades of Green" />
+      <div class="caption">Metallic green fly on a leaf — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC3098_2 (1).jpg" alt="Hoverfly on a yellow daisy" />
+      <div class="caption">Hoverfly on a yellow daisy — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC5365final240ast.jpg" alt="Dragonfly clutching a leaf" />
+      <div class="caption">Dragonfly clutching a leaf — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/colours2040.jpg" alt="Colored pencils arranged in a circle" />
+      <div class="caption">Colored pencils arranged in a circle — Abstract</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC2142.jpg" alt="Bee gathering pollen from a purple flower" />
+      <div class="caption">Bee gathering pollen — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC6185_2ast1.jpg" alt="Hoverfly on yellow petals" />
+      <div class="caption">Hoverfly on yellow petals — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC9854_1st.jpg" alt="Ladybug climbing a leaf" />
+      <div class="caption">Ladybug climbing a leaf — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC_2084.jpg" alt="Spider web with dew" />
+      <div class="caption">Spider web with dew — Nature</div>
+    </div>
+    <div class="card">
+      <img src="public/images/_DSC3587af.jpg" alt="Black and white rose petals" />
+      <div class="caption">Black and white rose petals — Flowers</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC_1358af.jpg" alt="Bee-fly hovering" />
+      <div class="caption">Bee-fly hovering — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC_1468af.jpg" alt="Bee-fly in flight" />
+      <div class="caption">Bee-fly in flight — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/tree1808.jpg" alt="Tree silhouette against sky" />
+      <div class="caption">Tree silhouette — Nature</div>
+    </div>
+    <div class="card">
+      <img src="public/images/_DSC2413_2af.jpg" alt="Insect in green grass" />
+      <div class="caption">Insect in green grass — Insects</div>
+    </div>
+    <div class="card">
+      <img src="public/images/DSC9705.jpg" alt="Hoverfly landing" />
+      <div class="caption">Hoverfly landing — Insects</div>
+    </div>
+  </div>
+</body>
+</html>
